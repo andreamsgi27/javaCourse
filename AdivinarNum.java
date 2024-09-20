@@ -7,15 +7,19 @@ public class AdivinarNum {
         Random random = new Random();
         int randomnum = random.nextInt(100);
         System.out.println("Adivina el número que estoy pensando: ");
-        
+        int numintroducido = scanner.nextInt();
+
         do { 
-            int numintroducido = scanner.nextInt();
-        } while (true);
+            numintroducido = scanner.nextInt();
 
-        if (numintroducido == randomnum){
-            System.out.println("Correcto!");
+            if (numintroducido > randomnum){
+                System.out.println("El numero es menor!");
+            } else {
+                System.out.println("El numero es mayor!");
+            }
+        } while (numintroducido != randomnum);
 
-        }
+        System.out.println("Correcto!");
 
         scanner.close();
     }
