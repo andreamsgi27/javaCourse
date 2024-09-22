@@ -9,15 +9,14 @@ public class AdivinarNum {
         System.out.println("Adivina el número que estoy pensando: ");
         int numintroducido = scanner.nextInt();
 
-        do { 
-            numintroducido = scanner.nextInt();
-
+        while (numintroducido != randomnum){
             if (numintroducido > randomnum){
                 System.out.println("El numero es menor!");
             } else {
                 System.out.println("El numero es mayor!");
             }
-        } while (numintroducido != randomnum);
+            numintroducido = scanner.nextInt();
+        }
 
         System.out.println("Correcto!");
 
