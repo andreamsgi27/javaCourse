@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Entrada {
     public static void main(String[] args) {
+        //ej 1
             Scanner scanner = new Scanner(System.in);
 
             System.out.print("Escribe un numero: ");
@@ -16,7 +17,7 @@ public class Entrada {
             System.out.print("Escribe una palabra: ");
             String cadena = scanner.next();
             System.out.println("Tu palabra es: " + cadena);
-
+        // ej 2
             System.out.print("Escribe 2 números separados: ");
             int num1 = scanner.nextInt();
             int num2 = scanner.nextInt();
