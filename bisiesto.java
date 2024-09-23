@@ -13,5 +13,6 @@ public class bisiesto {
         } else {
             System.out.println("Error");
         }
+        scanner.close();
     }
 }
