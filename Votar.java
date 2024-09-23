@@ -13,5 +13,6 @@ public class Votar {
         } else {
             System.out.println("Aun no tienes la edad legal para votar");
         }
+        scanner.close();
     }
 }
