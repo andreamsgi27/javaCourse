@@ -17,62 +17,54 @@ public class TablaMultiFor {
     int tablaintroducida = scanner.nextInt();
     
     switch(tablaintroducida){
-        case 1:
-        for (int i = 0; i < tabla1.length; i++){
-            System.out.println(tabla1[i]);
-        }
-        break;
+        case 1 -> {
+            for (int i = 0; i < tabla1.length; i++){
+                System.out.println(tabla1[i]);
+            }   }
 
-        case 2:
-        for (int i = 0; i < tabla2.length; i++){
-            System.out.println(tabla2[i]);
-        }
-        break;
+        case 2 -> {
+            for (int i = 0; i < tabla2.length; i++){
+                System.out.println(tabla2[i]);
+            }   }
 
-        case 3:
-        for (int i = 0; i < tabla3.length; i++){
-            System.out.println(tabla3[i]);
-        }
-        break;
+        case 3 -> {
+            for (int i = 0; i < tabla3.length; i++){
+                System.out.println(tabla3[i]);
+            }   }
 
-        case 4:
-        for (int i = 0; i < tabla4.length; i++){
-            System.out.println(tabla4[i]);
-        }
-        break;
+        case 4 -> {
+            for (int i = 0; i < tabla4.length; i++){
+                System.out.println(tabla4[i]);
+            }   }
 
-        case 5:
-        for (int i = 0; i < tabla5.length; i++){
-            System.out.println(tabla5[i]);
-        }
-        break;
+        case 5 -> {
+            for (int i = 0; i < tabla5.length; i++){
+                System.out.println(tabla5[i]);
+            }   }
 
-        case 6:
-        for (int i = 0; i < tabla6.length; i++){
-            System.out.println(tabla6[i]);
-        }
-        break;
+        case 6 -> {
+            for (int i = 0; i < tabla6.length; i++){
+                System.out.println(tabla6[i]);
+            }   }
 
-        case 7:
-        for (int i = 0; i < tabla7.length; i++){
-            System.out.println(tabla7[i]);
-        }
-        break;
+        case 7 -> {
+            for (int i = 0; i < tabla7.length; i++){
+                System.out.println(tabla7[i]);
+            }   }
 
-        case 8:
-        for (int i = 0; i < tabla8.length; i++){
-            System.out.println(tabla8[i]);
-        }
-        break;
+        case 8 -> {
+            for (int i = 0; i < tabla8.length; i++){
+                System.out.println(tabla8[i]);
+            }   }
 
-        case 9:
-        for (int i = 0; i < tabla9.length; i++){
-            System.out.println(tabla9[i]);
-        }
-        break;
+        case 9 -> {
+            for (int i = 0; i < tabla9.length; i++){
+                System.out.println(tabla9[i]);
+            }   }
 
-        default:
-        System.out.println("Error");
+        default -> System.out.println("Error");
     }
+
+    scanner.close();
 }
 }
