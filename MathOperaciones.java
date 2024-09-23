@@ -18,7 +18,7 @@ public class MathOperaciones {
 
         double absoluto1 = Math.abs(num1);
         double absoluto2 = Math.abs(num2);
-        System.out.println("El valor absoluto de " + num1 + " es " + absoluto1 + " y "
+        System.out.println("El valor absoluto de " + num1 + " es " + absoluto1 + " y el de " + num2 + " es " + absoluto2);
         scanner.close();
     }
 }
