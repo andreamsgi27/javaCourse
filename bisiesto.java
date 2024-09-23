@@ -7,7 +7,7 @@ public class bisiesto {
         int year = scanner.nextInt();
 
         if (year == 365){
-             System.out.println("No es bisiesto");
+            System.out.println("No es bisiesto");
         } else if (year == 366){
             System.out.println("Si es bisiesto");
         } else {
