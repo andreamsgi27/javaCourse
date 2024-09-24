@@ -19,5 +19,6 @@ public class Password {
         }
 
         System.out.println("Tu contraseña generada es: " + new String(password));
+        scanner.close();
     }
 }

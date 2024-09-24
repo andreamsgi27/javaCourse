@@ -14,5 +14,6 @@ public class CondicionesLogicas {
         if (num < 0 || num%3 == 0){
             System.out.println("Es negativo o divisible por 3");
         }
+        scanner.close();
     }
 }
