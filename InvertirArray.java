@@ -4,16 +4,10 @@ public class InvertirArray {
         int[] arrayinverso = new int[miarray.length];
 
         for (int i = 0; i < miarray.length; i++) {
-            for (int j = arrayinverso.length - 1; j >= 0; j--) {
-                arrayinverso[j] = miarray[i];
-                i++;
-                break;
-            }
+            arrayinverso[miarray.length - 1 - i] = miarray[i];
         }
-
         for (int k = 0; k < arrayinverso.length; k++) {
             System.out.println(arrayinverso[k]);
         }
-        
     }
 }
